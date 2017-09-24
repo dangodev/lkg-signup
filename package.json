@@ -1,0 +1,16 @@
+{
+  "engines": {
+    "node": "8.2.0"
+  },
+  "scripts": {
+    "build": "webpack NODE_ENV=production PLATFORM=web -p",
+    "dev": "webpack-dev-server"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
